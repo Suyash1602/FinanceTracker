@@ -1,0 +1,9 @@
+/* Styling for Radio Group (Responsive for small screens) */
+@media (max-width: 768px) {
+  .input-radio {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* space between the radio buttons */
+    width: 100%; /* make it take full width */
+  }
+}

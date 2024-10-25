@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.charts-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px; /* Space between charts */
+}
+
+.chart-item {
+  width: 48%; /* Adjust based on layout preference */
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .chart-item {
+    width: 100%; /* Stacks charts vertically on small screens */
+  }
+}
